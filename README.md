@@ -40,10 +40,4 @@ SELECT * FROM github_stats WHERE user = 'albangerschheimer';
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=albangerschheimer&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
 </p>
 
-```sql
--- The numbers in my READMEs are the ones I actually got, with the caveats next to them:
--- imbalanced datasets, sampling bias, distances that are only spatial approximations.
--- I'd rather ship a project that is clear about what it doesn't prove.
-```
-
 **Portfolio** → [albangerschheimer.vercel.app](https://albangerschheimer.vercel.app)
