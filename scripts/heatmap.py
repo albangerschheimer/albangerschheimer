@@ -94,7 +94,7 @@ def render(days):
     .t {{ fill: #59636e; }}
     .l0 {{ fill: #ebedf0; }} .l1 {{ fill: #9be9a8; }} .l2 {{ fill: #40c463; }} .l3 {{ fill: #30a14e; }} .l4 {{ fill: #216e39; }}
   }}
-  .c {{ opacity: 0; transform-box: fill-box; transform-origin: center; animation: pop .35s ease-out forwards; }}
+  .c {{ transform-box: fill-box; transform-origin: center; animation: pop .35s ease-out backwards; }}
   @keyframes pop {{ from {{ opacity: 0; transform: translateY(-6px) scale(.4); }} to {{ opacity: 1; transform: none; }} }}
 </style>
 {"".join(months)}{labels}
