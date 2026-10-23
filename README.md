@@ -1,4 +1,12 @@
 ```sql
+SELECT day, contributions FROM activity WHERE day > NOW() - INTERVAL '1 year';
+```
+
+<p>
+  <img src="./contrib-heatmap.svg" width="782" alt="Contribution heatmap for the last year" />
+</p>
+
+```sql
 SELECT name, school, focus
 FROM   students
 WHERE  github = 'albangerschheimer';
@@ -29,14 +37,6 @@ SELECT tool FROM toolkit;
 
 <p>
   <img src="https://skillicons.dev/icons?i=python,r,sklearn,mysql,swift,js,react,git&perline=8" alt="Python, R, scikit-learn, SQL, Swift, JavaScript, React, Git" />
-</p>
-
-```sql
-SELECT day, contributions FROM activity WHERE day > NOW() - INTERVAL '1 year';
-```
-
-<p>
-  <img src="./contrib-heatmap.svg" width="782" alt="Contribution heatmap for the last year" />
 </p>
 
 ```sql
