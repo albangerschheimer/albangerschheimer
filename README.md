@@ -32,6 +32,14 @@ SELECT tool FROM toolkit;
 </p>
 
 ```sql
+SELECT day, contributions FROM activity WHERE day > NOW() - INTERVAL '1 year';
+```
+
+<p>
+  <img src="./contrib-heatmap.svg" width="782" alt="Contribution heatmap for the last year" />
+</p>
+
+```sql
 SELECT * FROM github_stats WHERE user = 'albangerschheimer';
 ```
 
