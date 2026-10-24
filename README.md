@@ -28,8 +28,10 @@ ORDER  BY rows_crunched DESC;
 | [**Fake News Detection**](https://github.com/albangerschheimer/fake-news-detection-r) | 44,898 articles classified with TF-IDF | R |
 | [**Ligue 1 Match Predictor**](https://github.com/albangerschheimer/Predictions-Foot) | Match outcomes from a home-made Elo rating and form indicators · [live demo](https://pronostic-foot.vercel.app) | Python · scikit-learn · FastAPI |
 | [**DeepLearning MIASHS**](https://github.com/albangerschheimer/Project-Deeplearning-S3-Miashs) | Text clustering and image classification, seven models compared | Orange |
-| [**ATLAS**](https://github.com/albangerschheimer/ATLAS) | Health tracking on iPhone with no server, the data stays on the device | Swift · SwiftUI · HealthKit |
-| [**Claude Float**](https://github.com/albangerschheimer/claude-float) | A small floating macOS window for Claude | Swift · SwiftUI |
+| [**Crypto Trading Pipeline**](https://github.com/albangerschheimer/Pipeline-Crypto-Trading) | Collects prices and market data for 50 cryptocurrencies, stores and transforms them, then backtests trading strategies | Python · Binance · CoinGecko |
+| [**Lower Back Pain Prediction**](https://github.com/albangerschheimer/Lower-Back-Pain-Prediction) | Normal vs abnormal patients from spine measurements, five classifiers compared | Python · scikit-learn |
+| [**Medusa**](https://github.com/albangerschheimer/Medusa) | Public website for jellyfish activity on beaches, design stage in Figma | Figma |
+| [**FloatAssist**](https://github.com/albangerschheimer/FloatAssist) | A native macOS floating panel that keeps Claude, Gemini and ChatGPT one keystroke away | Swift · SwiftUI · AppKit |
 
 ```sql
 SELECT tool FROM toolkit;
